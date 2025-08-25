@@ -7,62 +7,120 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="flex w100">
-      <!-- Side Bar -->
-      <div>
-        <h2>DeliFin</h2>
-        <ol>
-          <li>Menu</li>
-          <li>Overview</li>
-          <li>My Wallet</li>
-          <li>Transaction</li>
-          <li>Loans</li>
-          <li>Investment</li>
-          <li>Statistic</li>
-          <li>Budgeting</li>
-          <li>Report</li>
-          <li>Message</li>
-          <li>Help & Settings</li>
-          <li>Settings</li>
-          <li>Feedback</li>
-          <li>Help & Center</li>
-        </ol>
+   
+    <!-- SideBar -->
+    <div class="sidebar">
+      <div class="sidebar-img sidebar-sz1">
+          <img class="sidebar-logo-sz" src="LOGO A.png" alt="Logo" />
+          <p>DeliFin</p>
       </div>
-      <!-- Header -->
-      <div class="">
-        <div class="height flex-container">
-          <h2>Overview</h2>
-
-          <div class="flex-container margin">
-            <div class="margin border rd-1 pad">
-              <img src="Img_search.png" width="40px" alt="" />
-            </div>
-            <div class="margin border rd-1 pad">
-              <img src="Img_bel.png" width="40px" alt="" />
-            </div>
-            <div class="margin border rd-1 flex pad" width="30px">
-              <img
-                class="round"
-                src="Img_person.jpg"
-                width="30px"
-                height="30px"
-              />
-              <div>
-                <p class="m-0 ukFont"><b>Wildan</b></p>
-                <p class="m-0 ukFont"><i>Admin</i></p>
-              </div>
-              <img
-                src="https://icons.veryicon.com/png/o/miscellaneous/simple-and-round-line-mark/down-arrow-56.png"
-                width="20px"
-                height="25px"
-              />
-            </div>
-          </div>
+      <!-- Sidebar Menu & Sub Menu -->
+      <div class="sidebar-sz2">
+        <div class="sidebar-menu-pad">
+          <p>Menu</p>
         </div>
-        <div>
-            <h2>Welcome Jerry</h2>
+        <!-- Overview -->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="overview.svg" alt="Overview">
+          <p class="sidebar-submenu-margin">Overview</p>
+        </div>
+        <!-- My Wallet-->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="mywallet.svg" alt="My Wallet">
+            <p class="sidebar-submenu-margin">My Wallet</p>
+        </div>
+        <!-- Transaction-->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="transaction.svg" alt="Transaction">
+          <p class="sidebar-submenu-margin">Transaction</p>
+        </div>
+        <!-- Loans -->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="loans.svg" alt="Loans">
+          <p class="sidebar-submenu-margin">Loans</p>
+        </div>
+        <!-- Investment-->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="investment.svg" alt="Investment">
+          <p class="sidebar-submenu-margin">Investment</p>
+        </div>
+        <!-- Statistic -->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="statistic.svg" alt="Statistic">
+          <p class="sidebar-submenu-margin">Statistic</p>
+        </div>
+        <!-- Budgeting -->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="budgeting.svg" alt="Budgeting">
+          <p class="sidebar-submenu-margin">Budgeting</p>
+        </div>
+        <!-- Report -->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="report.svg" alt="Report">
+          <p class="sidebar-submenu-margin">Report</p>
+        </div>
+        <!-- Message -->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="message.svg" alt="message">
+          <p class="sidebar-submenu-margin">Message</p>
+        </div>
+        <div class="sidebar-menu-pad">
+          <p>Help & Settings</p>
+        </div>
+        <!-- Settings -->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="settings.svg" alt="Settings">
+          <p class="sidebar-submenu-margin">Settings</p>
+        </div>
+        <!-- Feedback -->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="Feedback.svg" alt="Feedback">
+          <p class="sidebar-submenu-margin">Feedback</p>
+        </div>
+        <!-- Help & Center -->
+        <div class="sidebar-submenu-pad">
+          <img class ="sidebar-icon-sz" src="Help&Center.svg" alt="Help & Center">
+          <p class="sidebar-submenu-margin">Help & Center</p>
         </div>
       </div>
     </div>
-  </body>
+    <!-- Header  -->
+    <div class="header">
+      <div class="header-pad">
+          <p class="header-sz1">Overview</p>
+          <div class="header-right">
+            <!-- Search -->
+            <div class="header-border-image">
+              <img class="header-sz-image " src="search.svg" alt="search">
+            </div>
+            <!-- Notifikasi -->
+            <div class="header-border-image">
+              <img class="header-sz-image" src="bell.svg" alt="notifikasi">
+            </div>
+            <!--Akun  -->
+            <div class="header-border-akun">
+              <img class = "header-round-image header-sz-image" src="Img_person.jpg" alt="Person">
+              <div>
+                <p class="header-text-akun1">Wildan Ilham</p>  
+                <p class="header-text-akun2">Admin</p>
+              </div>
+              <img src="arrow.svg" alt="">
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="welcome">
+      <div class="welcome-sz1">
+        <p>Welcome, Jerry</p>
+        <img class="welcome-image-sz" src="flame.png" alt="flame">
+      </div>
+      <div class="welcome-margin">
+          <div class="welcome-border-date">
+            <p class="welcome-sz2">16 May2024</p>
+          </div>
+          <div class="welcome-border-export">
+            <input type="submit" value="Export">
+          </div>
+      </div>
+    </div>
 </html>
