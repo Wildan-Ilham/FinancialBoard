@@ -30,7 +30,7 @@ jobs:
           # 1. Masuk ke direktori proyek Anda di VPS
           # Ganti dengan path folder proyek Anda (misalnya /var/www/proyek-deploy)
           cd ../..
-          cd var/www/UTS_Web
+          cd var/www/Financial_Board
           
           # 2. Lakukan pull kode terbaru dari GitHub
           # Pastikan user SSH (secrets.SSH_USERNAME) punya akses ke direktori ini
